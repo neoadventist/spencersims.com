@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="SPENCERSIMS">
 	<head>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<script type="text/javascript" src="assets/ui-bootstrap-tpls-0.3.0.min.js"></script>
+		<script src="assets/model/app.js"></script>
+		<script src="assets/controller/main.js"></script>
+		<link href="assets/view/app.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">		
 	</head>
-	<body>
-		<h1>The Start of Something New!</h1>
-		<h2>http://spencersims.com</h2>
-		<h3>This Personal Website Will be Open Source!</h3>
+	<body class="container-fluid" >
+		<div ng-view></div>
 	</body>
 </html>
