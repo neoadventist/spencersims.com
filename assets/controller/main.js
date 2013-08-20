@@ -12,5 +12,5 @@ app.controller('main', function ($scope, $timeout,$http,$filter) {
 	console.log($scope.randomVid());
 	$scope.randomVidURL=$scope.randomVid();
 	
-	$scope.start = "Welcome, My Name is Spencer Sims";
+	$scope.start = "Welcome, My Name is Spencer Sims";	
 });

@@ -1,3 +1,15 @@
 body{
 	background-color:black;
 }
+.lguyFont{
+	font-family: 'Luckiest Guy', cursive;
+}
+.menu{
+	background-color:white;
+	opacity: 0.7;
+	padding:20px;
+}
+.menu:hover{
+	background-color:blue;
+	color:red;
+}
