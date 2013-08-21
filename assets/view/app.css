@@ -1,17 +1,22 @@
 body{
 	background-color:black;
 }
+#vid{
+position: fixed; bottom: 0px; right: 0px; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -1000; overflow: hidden;
+}
+
 .lguyFont{
 	font-family: 'Luckiest Guy', cursive;
 }
 .menu{
 	background-color:white;
-	opacity: 0.7;
+	opacity: 0.5;
 	padding:20px;
 }
 .menu:hover{
-	background-color:blue;
-	color:red;
+	background-color:green;
+	color:black;
+	opacity: 0.9;
 }
 .detail{
 	font-size:25px;

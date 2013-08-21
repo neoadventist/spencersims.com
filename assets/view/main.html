@@ -1,5 +1,5 @@
-
-<video id="vid" autoplay="autoplay" loop="loop" class="bgwidth" style="display: block;z-index:-1;position: fixed; top: 0px; bottom: 0px; width:100%; height:auto;opacity: 1;">
+<link href='http://fonts.googleapis.com/css?family={{randomFont}}' rel='stylesheet' type='text/css'>	
+<video id="vid" autoplay="autoplay" loop="loop" class="bgwidth">
   <source src="{{randomVidURL}}" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
 </video>
 
@@ -15,33 +15,21 @@
 	</div>
 </div>
 	<div class="row-fluid ">
-		<h1 class="span3 lguyFont menu" roffset expand ng-click="meDetail=!meDetail">Me 
-			<span ng-show="meDetail" class="detail">{{me}}</span>
-		</h1>
+		<h1 class="span3 lguyFont menu" roffset subject="Me" detail="{{me}}" ></h1>
 	</div>
 	<div class="row-fluid ">
-		<h1 class="span3 lguyFont menu" roffset expand ng-click="cvDetail=!cvDetail">CV 
-			<span ng-show="cvDetail" class="detail">{{cv}}</span>
-		</h1>
+		<h1 class="span3 lguyFont menu" roffset subject="CV" detail="{{cv}}" ></h1>
 	</div>
 	<div class="row-fluid ">
-		<h1 class="span3 lguyFont menu" roffset expand ng-click="codeDetail=!codeDetail">Code 
-			<span ng-show="codeDetail" class="detail">{{code}}</span>
-		</h1>
+		<h1 class="span3 lguyFont menu" roffset subject="Code" detail="{{code}}" ></h1>
 	</div>
 	<div class="row-fluid ">
-		<h1 class="span3 lguyFont menu" roffset expand ng-click="videoDetail=!videoDetail">Videos 
-			<span ng-show="videoDetail" class="detail">{{videos}}</span>
-		</h1>
+		<h1 class="span3 lguyFont menu" roffset subject="Videos" detail="{{videos}}" ></h1>
 	</div>
 	<div class="row-fluid ">
-		<h1 class="span3 lguyFont menu" roffset expand ng-click="projectDetail=!projectDetail">Projects 
-			<span ng-show="projectDetail" class="detail">{{projects}}</span>
-		</h1>
+		<h1 class="span3 lguyFont menu" roffset subject="Projects" detail="{{projects}}" ></h1>
 	</div>
 	<div class="row-fluid ">
-		<h1 class="span3 lguyFont menu" roffset expand ng-click="religionDetail=!religionDetail">Religion  
-			<span ng-show="religionDetail" class="detail">{{religion}}</span>
-		</h1>
+		<h1 class="span3 lguyFont menu" roffset subject="Religion" detail="{{religion}}" ></h1>
 	</div>
 
