@@ -14,10 +14,34 @@
 		</address>
 	</div>
 </div>
-	<div class="row-fluid "><h1 class="span3 lguyFont menu" roffset expand>Me</h1></div>
-	<div class="row-fluid "><h1 class="span3 lguyFont menu" roffset expand>CV</h1></div>
-	<div class="row-fluid "><h1 class="span3 lguyFont menu" roffset expand>Code</h1></div>
-	<div class="row-fluid "><h1 class="span3 lguyFont menu" roffset expand>Videos</h1></div>
-	<div class="row-fluid "><h1 class="span3 lguyFont menu" roffset expand>Linked-In</h1></div>
-	<div class="row-fluid "><h1 class="span3 lguyFont menu" roffset expand>Religion</h1></div>
+	<div class="row-fluid ">
+		<h1 class="span3 lguyFont menu" roffset expand ng-click="meDetail=!meDetail">Me 
+			<span ng-show="meDetail" class="detail">{{me}}</span>
+		</h1>
+	</div>
+	<div class="row-fluid ">
+		<h1 class="span3 lguyFont menu" roffset expand ng-click="cvDetail=!cvDetail">CV 
+			<span ng-show="cvDetail" class="detail">{{cv}}</span>
+		</h1>
+	</div>
+	<div class="row-fluid ">
+		<h1 class="span3 lguyFont menu" roffset expand ng-click="codeDetail=!codeDetail">Code 
+			<span ng-show="codeDetail" class="detail">{{code}}</span>
+		</h1>
+	</div>
+	<div class="row-fluid ">
+		<h1 class="span3 lguyFont menu" roffset expand ng-click="videoDetail=!videoDetail">Videos 
+			<span ng-show="videoDetail" class="detail">{{videos}}</span>
+		</h1>
+	</div>
+	<div class="row-fluid ">
+		<h1 class="span3 lguyFont menu" roffset expand ng-click="projectDetail=!projectDetail">Projects 
+			<span ng-show="projectDetail" class="detail">{{projects}}</span>
+		</h1>
+	</div>
+	<div class="row-fluid ">
+		<h1 class="span3 lguyFont menu" roffset expand ng-click="religionDetail=!religionDetail">Religion  
+			<span ng-show="religionDetail" class="detail">{{religion}}</span>
+		</h1>
+	</div>
 

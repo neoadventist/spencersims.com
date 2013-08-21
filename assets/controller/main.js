@@ -13,4 +13,17 @@ app.controller('main', function ($scope, $timeout,$http,$filter) {
 	$scope.randomVidURL=$scope.randomVid();
 	
 	$scope.start = "Welcome, My Name is Spencer Sims";	
+	$scope.meDetail =false;
+	$scope.cvDetail =false;
+	$scope.codeDetail =false;
+	$scope.videoDetail =false;
+	$scope.projectDetail =false;
+	$scope.religionDetail =false;
+	$scope.me="My Name is Spencer Sims. I'm a Front End Enginner in Los Angeles, CA";
+	$scope.cv="You can view my CV HERE";
+	$scope.code="You can check out my github HERE";
+	$scope.videos="Subscribe to me on YouTube!";
+	$scope.projects="You can see my recent projects HERE";
+	$scope.religion="Check out my magazine HERE";
+	
 });
