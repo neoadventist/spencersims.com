@@ -1,8 +1,8 @@
 app.controller('main', function ($scope, $timeout,$http,$filter) {
 	$scope.randomVid = function (){
-		videos =[	"http://www.convertro.com/sites/all/themes/custom/convertro/videos/crossing.webm",
-					"http://www.convertro.com/sites/all/themes/custom/convertro/videos/rainydayNYC.webm",
-					"http://www.convertro.com/sites/all/themes/custom/convertro/videos/square.webm"
+		videos =[	"../assets/view/videos/crossing.webm",
+					"../assets/view/videos/rainydayNYC.webm",
+					"../assets/view/videos/square.webm"
 				];
 		num = videos.length; 
 		vidId= Math.floor((Math.random()*num)+0);
