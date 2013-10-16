@@ -1,4 +1,4 @@
-app.controller('main', function ($scope, $timeout,$http,$filter) {
+app.controller('main', function ($scope, $timeout,$http,$filter,$modal) {
 	$scope.randomVid = function (){
 		videos =[	"../assets/view/videos/crossing.webm",
 					"../assets/view/videos/rainydayNYC.webm",
@@ -24,7 +24,20 @@ app.controller('main', function ($scope, $timeout,$http,$filter) {
 	$scope.cv="PDF | Linked-In";
 	$scope.code="You can check out my <a href='http://spencersims.com/github'>github HERE</a>";
 	$scope.videos="Subscribe to me on <a href='http://spencersims.com/youtube'>YouTube</a>!";
-	$scope.projects="You can see my recent projects HERE";
+	$scope.projects="You can see my recent projects <button ng-click='open'>HERE</button>";
 	$scope.religion="Check out my magazine <a href='http://eyesofreason.com'>HERE</a>";
+	
+
+	
+	$scope.open = function () {
+		var modalInstance = $modal.open({
+			templateUrl: 'view/projects.html',
+			resolve: {
+				items: function () {
+	
+				}
+			}
+		});		 
+	};
 	
 });
